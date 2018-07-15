@@ -35,7 +35,7 @@ def won?(board)
     win_index << 4
     win_index << 2    
       return win_index
-  elsif board[0] == "X" and board[3] == "X" and board[6] == "X"
+  elsif board[0] == "O" and board[3] == "O" and board[6] == "O"
     win_index << 0
     win_index << 3
     win_index << 6    
