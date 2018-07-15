@@ -74,7 +74,7 @@ end
 
 
 def over?(board)
-  binding.pry if board == ["X", " ", "X", " ", "X", " ", "O", "O", " "]
+  binding.pry if board == ["X", " ", " ", "O", "O", "O", "X", "X", " "]
   return true if draw?(board)
   return true if won?(board) && full?(board)
   return true if won?(board) && !full?(board)
