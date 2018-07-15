@@ -136,6 +136,7 @@ def winner(board)
   if won?(board) && won?(board).any?{|i| i == "X"}
     return "X"
   elsif won?(board) && won?(board).any?{|i| i == "O"}
+    return "O"
   end 
 end 
 
