@@ -67,7 +67,7 @@ WIN_COMBINATIONS = [
     [6,4,2], # bottom left diagonal 
     [0,3,6], # left column 
     [1,4,7], # middle column 
-    [2,5,8]  # bottom column 
+    [2,5,8],  # bottom column 
     [2,4,6]  # right diagonal win 
   ]
   
