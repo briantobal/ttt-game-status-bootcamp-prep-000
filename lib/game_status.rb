@@ -8,7 +8,7 @@ end
 
 def won?(board)
   win_index = Array.new
-  if board.any?{|i| i == " "}
+  if board.all?{|i| i == " "}
     return false 
   else board[0] == "X" and board[1] == "X" and board[2] == "X"
 win_index << 0
