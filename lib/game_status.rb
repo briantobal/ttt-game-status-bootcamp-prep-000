@@ -40,12 +40,12 @@ def won?(board)
     win_index << 3
     win_index << 6    
       return win_index
-  elsif board[1] == "X" and board[4] == "X" and board[7] == "X"
+  elsif board[1] == "O" and board[4] == "O" and board[7] == "O"
     win_index << 1
     win_index << 4
     win_index << 7    
       return win_index
-  elsif board[2] == "X" and board[5] == "X" and board[8] == "X"
+  elsif board[2] == "O" and board[5] == "O" and board[8] == "O"
     win_index << 2
     win_index << 5
     win_index << 8    
