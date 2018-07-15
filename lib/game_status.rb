@@ -134,9 +134,9 @@ end
 
 def winner(board)
   binding.pry if board == ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
-  if won?(board) && won?(board).any?{|i| i == "X"}
+  if won?(board) && won?(board).any?{|i| board[i] == "X"}
     return "X"
-  elsif won?(board) && won?(board).any?{|i| i == "O"}
+  elsif won?(board) && won?(board).any?{|i| board[i] == "O"}
     return "O"
   end 
 end 
