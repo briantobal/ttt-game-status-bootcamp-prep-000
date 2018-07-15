@@ -74,6 +74,7 @@ end
 
 
 def over?(board)
+  binding.pry
   return true if draw?(board)
   return true if won?(board) && full?(board)
   return true if won?(board) && !full?(board)
