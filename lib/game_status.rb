@@ -50,6 +50,11 @@ def won?(board)
     win_index << 5
     win_index << 8    
       return win_index
+  elsif board[2] == "O" and board[4] == "O" and board[6] == "O"
+    win_index << 2
+    win_index << 4
+    win_index << 6    
+      return win_index
       
   end
 end
