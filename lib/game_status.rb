@@ -67,7 +67,7 @@ def full?(board)
 end 
 
 def draw?(board)
-  
+  if 
 end 
 
 WIN_COMBINATIONS = [
