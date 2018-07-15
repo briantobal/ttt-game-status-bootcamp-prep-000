@@ -86,7 +86,7 @@ def winner(board)
   won?(board)
     if win_index.any?{|i| i == "X"}
       return "X"
-  end 
+    end 
 end 
 
 
