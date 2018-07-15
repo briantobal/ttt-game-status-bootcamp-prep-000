@@ -55,7 +55,8 @@ def won?(board)
     win_index << 4
     win_index << 6    
       return win_index
-      
+  else
+      return false 
   end
 end
 
