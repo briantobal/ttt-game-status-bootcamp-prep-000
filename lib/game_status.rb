@@ -83,10 +83,9 @@ end
 
 
 def winner(board)
-    if won(board) == true && win_index.any?{|i| i == "X"}
-      return "X"
-    end 
-  return winner
+      if won(board) == true && win_index.any?{|i| i == "X"}
+        return "X"
+      end 
 end 
 
 
