@@ -135,7 +135,7 @@ end
 def winner(board)
   #binding.pry if board == ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
   if won?(board) && won?(board).any?{|i| board[i] == "X"}
-    board[won?(board).first] == "X"
+    # board[won?(board).first] == "X"
     return "X"
   elsif won?(board) && won?(board).any?{|i| board[i] == "O"}
     return "O"
@@ -144,7 +144,7 @@ end
 
 
 WIN_COMBINATIONS = [
-    [0,1,2], # Top row
+   # [0,1,2], # Top row
     [3,4,5], # Middle row
     [6,7,8], # bottom row 
     [0,4,8], # top left diagonal 
