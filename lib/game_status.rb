@@ -81,7 +81,9 @@ def over?(board)
   end 
 end
 
-
+def winner(board)
+  if won?(board) == true && 
+end 
 
 
 WIN_COMBINATIONS = [
