@@ -81,8 +81,9 @@ def over?(board)
   end 
 end
 
+
 def winner(board)
-  if won?(board) == true && win_index[0] == "X"
+  if won?(board) == true && win_index.any? == "X"
     return "X"
   end 
 end 
