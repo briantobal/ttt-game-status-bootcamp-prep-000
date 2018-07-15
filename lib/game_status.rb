@@ -120,15 +120,11 @@ def full?(board)
 end 
 
 def draw?(board)
-  #if won?(board) == false && full?(board) == true
-  #  return true
-  #end 
   full?(board) && !won?(board)
 end 
 
 
 def over?(board)
-  #binding.pry if board == ["X", " ", " ", "O", "O", "O", "X", "X", " "]
   return true if draw?(board)
   return true if won?(board) && full?(board)
   return true if won?(board) && !full?(board)
