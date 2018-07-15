@@ -78,6 +78,8 @@ def over?(board)
     return true
   elsif full?(board) == true || draw?(board) == true
     return true 
+  else 
+    false 
   end 
 end
 
