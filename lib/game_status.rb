@@ -60,6 +60,8 @@ def won?(board)
 end
 
 def full?(board)
+  if board.all? 
+end 
 
 WIN_COMBINATIONS = [
     [0,1,2], # Top row
