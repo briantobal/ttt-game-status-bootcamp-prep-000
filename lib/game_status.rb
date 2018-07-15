@@ -10,12 +10,17 @@ def won?(board)
   win_index = Array.new
   if board.all?{|i| i == " "}
     return false 
-  else board[0] == "X" and board[1] == "X" and board[2] == "X"
-win_index << 0
-win_index << 1
-win_index << 2    
-return win_index
-end
+  elsif board[0] == "X" and board[1] == "X" and board[2] == "X"
+    win_index << 0
+    win_index << 1
+    win_index << 2    
+      return win_index
+  
+  
+  
+  
+  
+  end
 end
 
 WIN_COMBINATIONS = [
