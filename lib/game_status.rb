@@ -74,7 +74,7 @@ end
 
 
 def over?(board)
-  if full?(board) == false  && won?(board) == true
+  if won?(board) == true && full?(board) == false
     return true
   elsif full?(board) == true || draw?(board) == true
     return true 
@@ -84,7 +84,7 @@ end
 
 def winner(board)
   if won(board) == true && win_index.any?{|i| i == "X"}
-    return 
+    return "X"
   end 
 end 
 
